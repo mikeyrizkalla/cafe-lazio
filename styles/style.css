@@ -73,7 +73,7 @@ button.reserve {
 }
 
 .half {
-  width: 50vw;
+  width: 100%;
 }
 
 .center-text a{
@@ -82,4 +82,48 @@ button.reserve {
   padding: 10px 30px;
   margin: auto;
   border: 3px solid white;
+}
+
+.bckground {
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  opacity: 70%;
+}
+
+.menus {
+  margin: 200px auto;
+  width: 50%;
+  flex-direction: column;
+  gap: 30px;
+}
+
+footer {
+  padding: 100px 0;
+  align-items: center;
+}
+
+.big-logo {
+  width: 300px;
+}
+
+.open {
+  flex-direction: column;
+}
+
+.around {
+  justify-content: space-around;
+}
+
+.hours {
+  justify-content: space-between;
+  width: 200px;
+}
+
+.hours p {
+  margin: 5px 0;
+}
+
+.small {
+  justify-self: flex-end;
 }
