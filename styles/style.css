@@ -2,6 +2,10 @@
   font-family: 'Bebas Neue', sans-serif;
 }
 
+html {
+  box-sizing: border-box;
+}
+
 ul {
   list-style: none;
 }
@@ -25,17 +29,18 @@ nav {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  justify-content: center;
+  z-index: 100;
 }
 
 nav ul {
   padding: 0;
-  margin: 0 150px;
-  width: 90vw;
-  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+  gap: 40px;
+  justify-content: center;
   align-items: center;
-  margin-top: 50px;
-  margin-bottom: -94.188px;
+  margin: 50px auto -94.188px;
+  font-size: 24px;
 }
 
 .logo {
@@ -46,10 +51,15 @@ nav ul {
   width: 170px;
 }
 
+.mobile {
+  display: none;
+}
+
 button.reserve {
   font-size: 24px;
   padding: 5px 25px;
   border: none;
+  margin-left: auto;
 }
 
 .line {
@@ -58,11 +68,11 @@ button.reserve {
   color: white;
   width: 300px;
   flex: auto;
+  opacity: 0%;
 }
 
 .bg-image {
   position: relative;
-  z-index: -1;
 }
 
 .center-text {
@@ -101,9 +111,11 @@ button.reserve {
 footer {
   padding: 100px 0;
   align-items: center;
+  max-width: 70vw;
+  margin: auto;
 }
 
-.big-logo {
+.foot-logo {
   width: 300px;
 }
 
@@ -126,4 +138,49 @@ footer {
 
 .small {
   justify-self: flex-end;
+}
+
+@media (max-width: 1200px) {
+  .menus {
+    width: 90%;
+  }
+
+  .mobile-order {
+    margin-bottom: 50px;
+    order: -1;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .mobile-column {
+    flex-direction: column;
+  }
+
+  nav {
+    width: 80vw;
+    margin: auto;
+  }
+
+  .corner-logo {
+    margin-right: auto;
+  }
+
+  .mobile {
+    display: flex;
+    width: 60px;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .reserve {
+    display: none;
+  }
+
+  .address {
+    text-align: center;
+  }
+  
 }

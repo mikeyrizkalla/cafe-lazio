@@ -10,26 +10,35 @@
     <title>Cafe Lazio</title>
   </head>
   <body>
-    <nav class="flex">
+    <nav class="flex main-nav">
       <ul class="flex">
-        <li><a href="index.html"><img src="images/logo.png" alt="cafe lazio logo" class="logo"></a></li>
-        <li><hr class="line"></li>
-        <li><img src="images/byob.png" alt="bring your own wine" class="byob"></li>
-        <li><hr class="line"></li>
-        <li><button class="reserve">Reserver</button></li>
+          <li class="corner-logo">
+            <div>
+              <a href="index.html"><img src="images/square-logo.png" alt="cafe lazio logo" class="logo mobile"></a>
+            </div>
+          </li>
+        <li class="desktop"><a href="index.html"><img src="images/logo.png" alt="cafe lazio logo" class="logo"></a></li>
+        <li><a href="dejeuner.html">dejeuner</a></li>
+        <li><a href="souper.html">souper</a></li>
+        <li class="desktop"><img src="images/byob.png" alt="bring your own wine" class="byob"></li>
+        <li class="desktop"><button class="reserve">Reserver</button></li>
       </ul>
     </nav>
-    <main class="menu-container flex">
+    <main class="menu-container flex mobile-column">
       <div class="flex bg-image">
         <img src="images/eggs.png" alt="breakfast photo" class="half">
-        <div class="center-text"><p><a href="dejeuner.html">Dejeuner</a></p></div>
+        <div class="center-text">
+          <p><a href="dejeuner.html">Dejeuner</a></p>
+        </div>
       </div>
       <div class="flex bg-image">
         <img src="images/wine.png" alt="dinner photo" class="half">
-        <div class="center-text"><p><a href="index.html">Souper</a></p></div>
+        <div class="center-text">
+          <p><a href="souper.html">Souper</a></p>
+        </div>
       </div>
     </main>
-    <footer class="around flex">
+    <footer class="around flex mobile-column">
       <div class="open flex">
         <div class="flex hours">
           <p>Lundi &amp; Mardi</p>
@@ -56,10 +65,10 @@
           <p class="small">9h - 15h</p>
         </div>
       </div>
-      <div>
-        <img src="images/logo.png" alt="cafe lazio logo" class="big-logo">
+      <div class="mobile-order">
+        <a href="index.html"><img src="images/logo.png" alt="cafe lazio logo" class="foot-logo"></a>
       </div>
-      <div>
+      <div class="address">
         <p>635 Boul. Taschereau, La Prairie, QC J5R 1V5</p>
         <p>450-659-2233</p>
       </div>
