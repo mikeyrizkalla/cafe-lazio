@@ -109,7 +109,7 @@ button.reserve {
 }
 
 footer {
-  padding: 100px 0;
+  padding: 60px 0 100px;
   align-items: center;
   max-width: 70vw;
   margin: auto;
@@ -140,9 +140,37 @@ footer {
   justify-self: flex-end;
 }
 
+.icon {
+  width: 12px;
+  margin-right: 20px;
+}
+
+.delivery-container {
+  margin: 145px auto 0;
+  width: 40vw;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+.delivery {
+  max-width: 100px;
+}
+
+.social {
+  width: 48px;
+}
+
+.bottom-btn {
+  display: none;
+}
+
 @media (max-width: 1200px) {
   .menus {
     width: 90%;
+  }
+
+  .mobile-column {
+    flex-direction: column;
   }
 
   .mobile-order {
@@ -152,10 +180,6 @@ footer {
 }
 
 @media (max-width: 900px) {
-
-  .mobile-column {
-    flex-direction: column;
-  }
 
   nav {
     width: 80vw;
@@ -168,7 +192,7 @@ footer {
 
   .mobile {
     display: flex;
-    width: 60px;
+    max-width: 60px;
   }
 
   .desktop {
@@ -177,6 +201,22 @@ footer {
 
   .reserve {
     display: none;
+  }
+
+  .delivery-container {
+    gap: 15px;
+  }
+
+  .delivery {
+    width: 50px;
+  }
+
+  .social {
+    width: 23px;
+  }
+
+  .foot-logo {
+    width: 250px;
   }
 
   .address {
