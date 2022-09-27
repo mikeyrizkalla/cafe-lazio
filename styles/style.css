@@ -55,11 +55,13 @@ nav ul {
   display: none;
 }
 
-button.reserve {
+a.reserve {
   font-size: 24px;
   padding: 5px 25px;
   border: none;
   margin-left: auto;
+  color: black;
+  background-color: white;
 }
 
 .line {
@@ -190,9 +192,12 @@ footer {
     margin-right: auto;
   }
 
+  .mobile-logo {
+    width: 60px;
+  }
+
   .mobile {
     display: flex;
-    max-width: 60px;
   }
 
   .desktop {
@@ -219,8 +224,20 @@ footer {
     width: 250px;
   }
 
-  .address {
+  .bottom-btn {
+    display: block;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .bottom-reserve {
+    display:block;
     text-align: center;
+    font-size: 1.5rem;;
+    background-color: white;
+    color: black;
+    padding: 10px;
   }
   
 }
