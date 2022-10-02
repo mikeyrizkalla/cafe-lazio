@@ -104,7 +104,7 @@ a.reserve {
 }
 
 .menus {
-  margin: 200px auto;
+  margin: 200px auto 100px;
   width: 50%;
   flex-direction: column;
   gap: 30px;
@@ -148,10 +148,22 @@ footer {
 }
 
 .delivery-container {
-  margin: 145px auto 0;
+  margin: 0 auto;
   width: 40vw;
   gap: 30px;
   justify-content: space-around;
+}
+
+.black-bg {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 100px;
+}
+
+.chez-vous {
+  font-size: 2em;
+  margin: 0 auto 30px;
+  letter-spacing: 2px;
+  text-align: center;
 }
 
 .delivery {
@@ -208,6 +220,10 @@ footer {
     display: none;
   }
 
+  /* .bckground {
+    width: 150vw;
+  } */
+
   .delivery-container {
     gap: 15px;
   }
@@ -237,7 +253,8 @@ footer {
     font-size: 1.5rem;;
     background-color: white;
     color: black;
-    padding: 10px;
+    border: solid black 1px;
+    padding: 12px;
   }
   
 }
