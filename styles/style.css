@@ -220,12 +220,12 @@ footer {
     display: none;
   }
 
-  /* .bckground {
-    width: 150vw;
-  } */
-
   .delivery-container {
     gap: 15px;
+  }
+
+  .black-bg {
+    padding: 50px;
   }
 
   .delivery {
