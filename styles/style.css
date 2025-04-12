@@ -113,7 +113,7 @@ a.reserve {
 footer {
   padding: 60px 0 100px;
   align-items: center;
-  max-width: 70vw;
+  max-width: 60vw;
   margin: auto;
 }
 
@@ -149,8 +149,8 @@ footer {
 
 .delivery-container {
   margin: 0 auto;
-  width: 40vw;
-  gap: 30px;
+  width: 30vw;
+  gap: 20px;
   justify-content: space-around;
 }
 
