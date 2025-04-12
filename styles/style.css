@@ -157,6 +157,7 @@ footer {
 .black-bg {
   background-color: rgba(0, 0, 0, 0.4);
   padding: 100px;
+  margin: 0 auto;
 }
 
 .chez-vous {
